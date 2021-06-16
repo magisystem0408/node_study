@@ -1,9 +1,14 @@
 {
   "name": "web-server",
+  "engines": {
+    "node": "15.11.0",
+    "npm": "7.16.0"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
